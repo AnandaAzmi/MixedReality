@@ -1,5 +1,34 @@
 {
     "name": "Player",
-    "maps": [],
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "1204db87-25b7-40b0-941e-5a1bbfca926d",
+            "actions": [
+                {
+                    "name": "TouchInput",
+                    "type": "PassThrough",
+                    "id": "e313e704-6bc6-49d3-b756-d702b4175593",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9e599ad1-18c6-4133-b68b-100ace2b8596",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
     "controlSchemes": []
 }
